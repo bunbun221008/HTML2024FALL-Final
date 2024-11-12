@@ -1,3 +1,4 @@
+#LR with whole training dataset
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.impute import SimpleImputer
