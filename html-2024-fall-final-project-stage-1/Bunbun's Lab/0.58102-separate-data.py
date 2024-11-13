@@ -1,6 +1,6 @@
 #separate training data to 4 parts. trained a LR model on each part of data. 
 #finally use trainable weighted grometric average to calculate the final predicted wining probability. >0.5 = TRUE otherwise FALSE
-
+#trained on 80% of data
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
